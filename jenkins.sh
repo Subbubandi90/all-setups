@@ -10,6 +10,6 @@ amazon-linux-extras install java-openjdk11 -y
 yum install jenkins -y
 update-alternatives --config java
 
-#STEP-4: RESTARTING JENKINS (when we download service it will on stopped state)
+#STEP-4: RESTARTING JENKINS (when we download service it will on stopped state
 systemctl start jenkins.service
 systemctl status jenkins.service
